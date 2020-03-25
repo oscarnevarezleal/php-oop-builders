@@ -1,5 +1,6 @@
 {
   "name": "oscarnevarezleal/php-oop-builders",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Oscar Nevarez",
@@ -7,6 +8,9 @@
     }
   ],
   "autoload": {
+    "classmap": [
+      "src/"
+    ],
     "psr-4": {
       "PhpOopBuilder\\": "./src/"
     }
@@ -16,5 +20,8 @@
     "ext-json": "*",
     "doctrine/annotations": "^1.8",
     "doctrine/collections": "^1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
   }
 }
